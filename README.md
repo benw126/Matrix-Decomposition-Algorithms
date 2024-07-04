@@ -15,4 +15,4 @@ The linear system $Cx = b$ is equivalent to $D(F_n)x = F_nb$. Matrix-vector mult
 2. Apply the *DFT* to the right-hand side vector $b$, then divide the result elementwise by the diagonal elements of $D$.
 3. Apply the inverse *DFT* to the resulting vector.
 
-This efficient algorithm to the circulant matrix system requires only $O(n\log n)$ computational cost, making it a very useful technique in various applications.
+This efficient algorithm of the circulant matrix system requires only $O(n\log n)$ computational cost, making it a very useful technique in various applications.
